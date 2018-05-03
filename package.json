@@ -1,0 +1,27 @@
+{
+  "name": "dukang",
+  "version": "0.0.1",
+  "description": "The only way to solve the problem is Du Kang",
+  "main": "index.js",
+  "keywords": [
+    "web",
+    "javascript",
+    "react",
+    "h5",
+    "小程序"
+  ],
+  "bin": {
+    "dukang": "bin/my-cli.js"
+  },
+  "preferGlobal": true,
+  "author": "YHX",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yihongxian/dukang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yihongxian/dukang/issues"
+  },
+  "homepage": "https://github.com/yihongxian/dukang#readme"
+}
