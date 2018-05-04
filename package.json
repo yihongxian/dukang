@@ -1,8 +1,7 @@
 {
   "name": "dukang",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "The only way to solve the problem is Du Kang",
-  "main": "index.js",
   "keywords": [
     "web",
     "javascript",
@@ -11,10 +10,10 @@
     "小程序"
   ],
   "bin": {
-    "dukang": "bin/my-cli.js"
+    "dukang": "./bin/dukang.js"
   },
   "preferGlobal": true,
-  "author": "YHX",
+  "author": "yihongxian",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -23,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/yihongxian/dukang/issues"
   },
-  "homepage": "https://github.com/yihongxian/dukang#readme"
+  "homepage": "https://github.com/yihongxian/dukang#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "shelljs": "^0.8.1",
+    "yargs": "^11.0.0"
+  }
 }
