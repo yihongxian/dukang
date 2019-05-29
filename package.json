@@ -1,6 +1,6 @@
 {
   "name": "dukang",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "The only way to solve the problem is Du Kang",
   "keywords": [
     "web",
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/yihongxian/dukang#readme",
   "dependencies": {
     "chalk": "^2.4.1",
+    "columnify": "^1.5.4",
     "shelljs": "^0.8.1",
     "yargs": "^11.0.0"
   }

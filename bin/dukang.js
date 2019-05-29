@@ -4,4 +4,5 @@ require('yargs')
   .commandDir('../lib/cmds')
   .alias('h', 'help')
   .alias('v', 'version')
+  .alias('c', 'commit-message')
   .argv;
